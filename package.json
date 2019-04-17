@@ -1,19 +1,25 @@
 {
-  "name": "j3d",
+  "name": "J3D",
   "version": "1.0.0",
   "description": "simple webGL render library",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "parcel build index.js",
+    "start": "parcel index.html"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jingjingshenye/J3D.git"
   },
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/jingjingshenye/J3D/issues"
   },
-  "homepage": "https://github.com/jingjingshenye/J3D#readme"
+  "homepage": "https://github.com/jingjingshenye/J3D#readme",
+  "dependencies": {
+    "babel": "^6.23.0"
+  }
 }
